@@ -62,8 +62,7 @@ button {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
 }
 
 .section {
@@ -247,10 +246,15 @@ button {
 
 .team-item {
   background: var(--white);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:not(:last-child) {
   margin-right: 24px;
+}
+
+.team-item-container {
+  padding: 32px 0;
 }
 /* /TEAM */
 
