@@ -91,6 +91,7 @@ button {
 .header .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 25.5px 15px;
 }
 
@@ -122,10 +123,7 @@ button {
 
 .nav-list {
   display: flex;
-}
-
-.nav-item:not(:last-child) {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .nav-link {
@@ -134,16 +132,9 @@ button {
   padding: 24px 0 24px;
 }
 
-.contact {
-  margin-left: 322px;
-}
-
 .contact-list {
   display: flex;
-}
-
-.contact-item:first-child {
-  margin-right: 40px;
+  gap: 40px;
 }
 /* /HEADER */
 
@@ -161,6 +152,7 @@ button {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
+  max-width: 496px;
   line-height: 1.07;
   color: var(--white);
   text-align: center;
@@ -206,10 +198,6 @@ button {
 .benefits-item {
   width: calc((100% - 72px) / 4);
 }
-
-.benefits-item.nav-item:not(:last-child) {
-  margin-right: 24px;
-}
 /* /BENEFITS */
 
 /* TEAM */
@@ -242,15 +230,12 @@ button {
 
 .team-list {
   display: flex;
+  gap: 24px;
 }
 
 .team-item {
   background: var(--white);
   border-radius: 0px 0px 4px 4px;
-}
-
-.team-item:not(:last-child) {
-  margin-right: 24px;
 }
 
 .team-item-container {
@@ -316,6 +301,7 @@ button {
 }
 
 .footer-paragraph {
+  max-width: 264px;
   margin-top: 16px;
   color: var(--cloud);
 }
