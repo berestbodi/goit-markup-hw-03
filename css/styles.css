@@ -88,12 +88,12 @@ button {
 /* HEADER */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 25.5px 0px;
 }
 .header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25.5px 15px;
 }
 
 .logo {
@@ -158,7 +158,6 @@ button {
   color: var(--white);
   text-align: center;
   margin: 0 auto 48px;
-  max-width: 496px;
   display: block;
 }
 
