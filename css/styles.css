@@ -137,6 +137,7 @@ button {
 .contact-list {
   display: flex;
   gap: 40px;
+  font-style: normal;
 }
 /* /HEADER */
 
@@ -221,12 +222,10 @@ button {
   line-height: 1.2;
   text-align: center;
   color: var(--navy-blue);
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .team-item .paragraph {
   text-align: center;
-  margin-bottom: 32px;
 }
 
 .team-list {
@@ -255,7 +254,6 @@ button {
 }
 
 .portfolio-item-title {
-  padding-top: 32px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -263,21 +261,10 @@ button {
   margin-bottom: 8px;
 }
 
-.portfolio-item .paragraph {
-  margin-bottom: 32px;
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-}
-
-.portfolio-item:not(:nth-child(3n)) {
-  margin-right: 24px;
-}
-
-.portfolio-item:nth-child(-n + 3) {
-  margin-bottom: 48px;
+  gap: 48px 24px;
 }
 
 .portfolio-item-container {
@@ -294,7 +281,7 @@ button {
   background: var(--navy-blue);
 }
 
-.logo .footer-span {
+.footer-logo .footer-span {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
@@ -306,10 +293,15 @@ button {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
 }
 
 .footer-paragraph {
   max-width: 264px;
-  margin-top: 16px;
   color: var(--cloud);
 }
